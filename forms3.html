@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+</head>
+<body>
+    <h1 align="center">Flipcart Signup</h1>
+    <form method="post" name="signup">
+        <table align="center" cellspacing="10px" cellpadding="10px">
+            <tbody>
+                <tr>
+                    <td>
+                        <label>Email id to login</label>
+                        <input type="email" name="mail" placeholder="email please" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Select languages</lable>
+                        <select name="Languages" required>
+                            <option>Select skills</option>
+                            <option>English</option>
+                            <option>Tamil</option>
+                            <option>Telgu</option>
+                            <option>Hindi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter the contact number</label>
+                    </br>
+                        <input type="tel" name="mobile" placeholder="mobile number please" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of delivery</label>
+                        <input type="date" name="dob" placeholder="date of delivery " />
+                    </td>
+                <tr>
+                    <td>
+                        <label>Place your Order:</label>
+                    </br>
+                        <label>Address line 1</label>
+                        <input type="place" name="address line1" placeholder="enter your door number"/>
+                    </br>
+                        <label>Address line 2</label>
+                        <input type="place" name="address line2" placeholder="enter your street" />
+                    </br>
+                        <label>Address line 3</label>
+                        <input type="place" name="address line3" placeholder="enter your city" />
+                    </br>
+                        <label>Address line 4</label>
+                        <input type="place" name="address line4" placeholder="enetr your District" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Payement Methods</label>
+                        <Select type="payement" required>
+                            <option>Suggested For You</option>
+                            <option>Cash On Delivery</option>
+                            <option>Google pay</option>
+                            <option>UPI</option>
+                            <option>Wallet/Postpaid</option>
+                            <option>Credit/Debit/Atm Card</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>Time of Delivery</label>
+                        <input type="radio" name="Delivery" value="before 6pm" />before 4pm
+                        <input type="radio" name="delivery" value="anytime available" />anytime available
+                    </td>
+
+                <tr>
+                    <td><input type="submit" value="Signup" /></td>
+                    <td><button>Cancel</button></td>
+                </tr>
+</body>
+</html>
